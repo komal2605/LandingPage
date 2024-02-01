@@ -12,7 +12,6 @@ const Input = () => {
 
   const handleEmailChange = (e) => {
     const inputEmail = e.target.value;
-
     setEmail(inputEmail);
     setIsValidEmail(validateEmail(inputEmail));
   };
